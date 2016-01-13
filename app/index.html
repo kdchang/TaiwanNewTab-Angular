@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>台灣 New Tab</title>
+    <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <!-- 	<script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script type="text/javascript" src="./bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./scripts/background.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="MainCtrl" ng-style="setBackground()">
+    <div class="wrapper">
+        <div class="navbar">
+            <div>
+                <button class="navbtn" ng-click="toogleSearch()"><i class="glyphicon glyphicon-search"></i></button>
+				<form method="get" action="http://www.google.com/search" target="_blank" ng-show="showSearch">
+                    <div class="input-block">
+                        <input class="search-input" type="text" name="q" placeholder="請輸入 Google 搜尋關鍵字並按 Enter">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="search-block">
+        </div>
+        <div class="meta">
+            <div>
+                <a ng-href="{{ image.link }}" target="_blank">
+                    <p class="image-name" ng-bind="image.name"></p>
+                </a>
+            </div>
+        </div>
+        <div class="clock-font-block">
+            <p class="clock-font">{{ clock | date:'mediumTime'}}</p>
+        </div>
+    </div>
+</body>
+
+</html>

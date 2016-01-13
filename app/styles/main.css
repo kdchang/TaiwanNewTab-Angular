@@ -1,0 +1,100 @@
+body {
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Lantinghei TC", "Hiragino Kaku Gothic Pro", "Heiti TC", "微軟正黑體", "STHeiti Light", "Microsoft Yahei", "Microsoft JhengHei", Helvetica, sans-serif !important;
+    height: 95vh!important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/* body */
+
+.wraper {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    width: 700px;
+    right: 40px;
+    top: 20px
+}
+
+.navbtn {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    border-radius: 10%;
+    float: right;
+}
+
+.navbtn:hover {
+    opacity: 0.7;
+}
+
+.input-block {
+    float: right;
+}
+
+.search-input {
+    width: 500px;
+    height: 38px;
+    opacity: 0.9;
+    border-radius: 3%;
+}
+
+.meta {
+    position: absolute;
+    bottom: 90px;
+    right: 40px;
+}
+
+.image-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px #000000;
+}
+
+.clock-font-block {
+    position: absolute;
+    bottom: -10px;
+    right: 40px;
+}
+
+.clock-font {
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000000;
+}
+
+.hello-font {
+    font-size: 30px;
+}
+
+.author-avator {
+    border-radius: 100%;
+}
