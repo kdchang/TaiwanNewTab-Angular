@@ -1,81 +1,119 @@
 [{
     "name": "合歡山",
     "link": "https://www.flickr.com/photos/113058966@N08/15519708686/in/photolist-pDqyGf…4UcD-BSFtha-CnWHuw-BSybwS-CML4A7-BSFpN6-BSFnUr-CEvWVE-BSFjmp-Cgyx9k-CEvPuh",
-    "path": "url(../images/photos/hehuanshan.jpg)"
+    "path": "url(../images/photos/hehuanshan.jpg)",
+    "authorName": "gamemall104"
 }, {
     "name": "台北101",
     "link": "https://www.flickr.com/photos/127339305@N05/22793324515/in/photolist-AJaKgH…NRd7-xtWaNa-4wKJCe-oaBAaZ-4XU8Xk-dPXLeK-96EnLg-8DyFKT-b7Jtnk-ro1DYG-brASqW",
-    "path": "url(../images/photos/101.jpg)"
+    "path": "url(../images/photos/101.jpg)",
+    "authorName": "Ludovic Lubeigt"
+
 }, {
     "name": "圓山飯店",
     "link": "https://www.flickr.com/photos/seeminglee/14571905402/in/photolist-ocEPNj-xY…Quz9-pXTwbG-oSU8cR-p1vvEG-w7jc8m-yhZb7L-x8NRd7-xtWaNa-4wKJCe-oaBAaZ-4XU8Xk",
-    "path": "url(../images/photos/grand_hotel.jpg)"
+    "path": "url(../images/photos/grand_hotel.jpg)",
+    "authorName": "See-ming Lee"
+
 }, {
     "name": "自由廣場",
     "link": "https://www.flickr.com/photos/seeminglee/14570767342/in/photolist-ocyZuA-BD…o6jK-BGtXXu-AKhq4D-pwEKFn-wt8dbE-CvbovS-vggczh-m5Qxqt-o35Dms-qesUjG-w6ieWP",
-    "path": "url(../images/photos/freedom.jpg)"
+    "path": "url(../images/photos/freedom.jpg)",
+    "authorName": "See-ming Lee"
+
 }, {
     "name": "台灣工程師",
     "link": "https://www.flickr.com/photos/toomore/23066277453/in/photolist-B9hGER-BMTo3…ouv3zq-BjV8dc-AwNvJ-nzjfiS-D7FG6-A8WER8-wt7zMs-y2vRpw-B1H9NT-A8Wf1X-Aqv9Yf",
-    "path": "url(../images/photos/engineer.jpg)"
+    "path": "url(../images/photos/engineer.jpg)",
+    "authorName": "Toomore Chiang"
+
 }, {
     "name": "燕子口",
     "link": "https://www.flickr.com/photos/pslee999/20353680351/in/photolist-x1zW4i-w7jc…sUjG-8DyFKT-qmrSWj-ro1DYG-brASqW-xX4dqE-oCV4ky-tWUpXh-rwZq3x-BNwxnL-u1oE3E",
-    "path": "url(../images/photos/swallow.jpg)"
+    "path": "url(../images/photos/swallow.jpg)",
+    "authorName": "pslee999"
+
 }, {
     "name": "九份",
     "link": "https://www.flickr.com/photos/jerrylai0208/11028191523/in/photolist-hNwn8a-…2ydL-rL2odr-rL2oaF-rKUZSy-bTnfGP-bEsvXm-rL2o1x-rtzcJn-rHJEx7-qPeDiR-rtrxcW",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/nigh.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/nigh.jpg)",
+    "authorName": "jerrylai0208"
+
 }, {
     "name": "陽明山",
     "link": "https://www.flickr.com/photos/alexyo1968/5019585053/in/photolist-8DyFKT-b7J…HUb2-zhMPJS-AeDq2k-xExcMq-bCo6jK-AKhq4D-8YNGPu-ocvT1Z-8V1ivY-AzgYFS-CCrsGy",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/YangMingShan.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/YangMingShan.jpg)",
+    "authorName": "Alexander"
+
 }, {
     "name": "蘭嶼",
     "link": "https://www.flickr.com/photos/hsuyo/14738669341/in/photolist-ospwUD-m5RqEo-…SU8cR-y6JmC-AJaKgH-iYFw5U-BDNR4E-s39aPJ-rsuNpi-xRpnmF-qEZHVC-z7vKhj-p1vvEG",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Lanyu.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Lanyu.jpg)",
+    "authorName": "David Hsu"
+
 }, {
     "name": "龜山島",
     "link": "https://www.flickr.com/photos/pslee999/18932305080/in/photolist-uQZ1H7-oaBA…-qPgoHa-ALYfZb-oCV4ky-bBaX2r-tWUpXh-6qx6QA-s93RuU-yjTkc-DnpwE-Dnpqc-o7ZDcf",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Turtle.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Turtle.jpg)",
+    "authorName": "pslee999"
+
 }, {
     "name": "馬祖",
-    "link": "https://www.flickr.com/photos/rayofsun/13801890213/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Matsu.jpg)"
+    "link": "https://www.flickr.com/photos/lrq20501/9680822058/in/photolist-fKsK89-fKb9WF-fKsJXL-fKb9Ka-fKsJJS-fKsJGQ-fKsJA1-fKb9wX-fKb9rH-fKb9qP-fKsJks-fKb9h4-fKb99z-fKsJdU-fKsJ7b-fKsJ7y-fKsJ1o-fKsHYs-fKsHVq-fKsHVs-fKsHQU-fKb8JV-fKb8GD-fKsHHs-fKsHAs-fKsHAy-fKsHwd-fKsGkh-fKb7k4-fKb7fr-fKb7d2-fKb7c6-fKb77Z-fKb76e-fKsFZG-fKb6T4-p1gXbt-fG3REK-ioPQ87-oJ3rbt-p1vCfW-oYvDVW-oYvCz9-p1vCbN-oJ3YcC-oJ4ju8-oJ3wTv-oJ3P85-oJ4j7L-fKbhMe",
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Matsu.jpg)",
+    "authorName": "Joe Lo"
+
 }, {
     "name": "淡水",
     "link": "https://www.flickr.com/photos/78291705@N07/15919270647/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Tanshui.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Tanshui.jpg)",
+    "authorName": "svensin"
+
 }, {
     "name": "台北市景",
     "link": "https://www.flickr.com/photos/i-gunawan/23494318805/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Taipei.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Taipei.jpg)",
+    "authorName": "i.gunawan Follow"
+
 }, {
     "name": "高雄愛河之心",
     "link": "https://www.flickr.com/photos/vicjuan/14975673040/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/heart.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/heart.jpg)",
+    "authorName": "Chao-Wei Juan"
+
 }, {
     "name": "西子灣英國領事館",
     "link": "https://www.flickr.com/photos/colortec/9816656263/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/cwan.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/cwan.jpg)",
+    "authorName": "Chien Liang Kuo"
+
 }, {
     "name": "和平島公園",
     "link": "https://www.flickr.com/photos/sfmine79/6441485685/in/photolist-aPdm4X-aPdiQ…do4i-aPdiJp-aPdiAM-aPdjor-aPdnSt-aPdjBt-aPdjfV-aPdoaz-aPdi1P-aPdmZ8-ddZsLF",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/peace.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/peace.jpg)",
+    "authorName": "MiNe"
+
 }, {
     "name": "高雄旗津渡輪",
     "link": "https://www.flickr.com/photos/colortec/12654025843/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/port.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/port.jpg)",
+    "authorName": "Chien Liang Kuo Follow"
+
 }, {
-    "name": "高速公路",
+    "name": "國道三號高速公路",
     "link": "https://www.flickr.com/photos/xhowardlee/23760461302/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Highway.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/Highway.jpg)",
+    "authorName": "xhowardlee"
+
 }, {
     "name": "澎湖燈塔",
     "link": "https://www.flickr.com/photos/pslee999/20906127531/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/LightHouse.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/LightHouse.jpg)",
+    "authorName": "pslee999"
+
 }, {
     "name": "烏來",
     "link": "https://www.flickr.com/photos/m-louis/16201535058/",
-    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/wuri.jpg)"
+    "path": "url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/wuri.jpg)",
+    "authorName": "m-louis"
 }]
