@@ -27,11 +27,17 @@ a:active {
     text-decoration: none;
 }
 
-
 /* body */
 
 .wraper {
     position: relative;
+}
+
+.loading-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
 }
 
 .navbar {

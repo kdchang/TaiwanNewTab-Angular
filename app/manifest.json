@@ -1,8 +1,9 @@
 {
-    "name": "TaiwanNewTab(台灣風景分頁)",
+    "name": "台灣風景分頁(Taiwan New Tab)",
     "version": "0.0.5",
     "manifest_version": 2,
     "description": "分享台灣的美好風景",
+    "short_name": "台灣風景分頁",
     "icons": {
         "16": "images/icon-16.png",
         "128": "images/icon-128.png"

@@ -14,6 +14,9 @@
 
 <body ng-app="myApp" ng-controller="MainCtrl" ng-style="setBackground()">
     <div class="wrapper">
+    	<div class="loading-block" ng-show="showLoading">
+    		<img src="./images/ajax-loader.gif">
+    	</div>
         <div class="navbar">
             <div>
                 <button class="navbtn" ng-click="toogleSearch()"><i class="glyphicon glyphicon-search"></i></button>
