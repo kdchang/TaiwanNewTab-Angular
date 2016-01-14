@@ -40,6 +40,10 @@ a:active {
     text-align: center;
 }
 
+.author-name {
+	display: none;
+}
+
 .navbar {
     position: absolute;
     width: 700px;
