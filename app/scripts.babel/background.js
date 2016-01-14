@@ -26,6 +26,11 @@ app.run(function($window, $rootScope) {
 app.controller('MainCtrl', ['$rootScope', '$scope', '$http', '$timeout', 'imageService', function($rootScope, $scope, $http, $timeout, imageService) {
     $scope.clock = "loading clock..."; // initialise the time variable
     $scope.tickInterval = 1000 //ms
+    $scope.showLoading = true;
+
+    angular.element(document).ready(function () {
+	    $scope.showLoading = false;
+    });
 
     var tick = function() {
             $scope.clock = Date.now() // get the current time
@@ -34,7 +39,8 @@ app.controller('MainCtrl', ['$rootScope', '$scope', '$http', '$timeout', 'imageS
         // Start the timer
     $timeout(tick, $scope.tickInterval);
 
-    $scope.images = imageService.getImages()
+    $scope.images = imageService.getImages();
+
     if($rootScope.online) {
 	    $scope.image = $scope.images[Math.floor(Math.random() * $scope.images.length)];
     } else {
@@ -55,7 +61,7 @@ app.controller('MainCtrl', ['$rootScope', '$scope', '$http', '$timeout', 'imageS
 app.factory('imageService', ['$rootScope', function($rootScope) {
     var images = [{
         name: '合歡山',
-        link: 'https://www.flickr.com/photos/67415843@N05/23288635480/in/photolist-BtWkXW-pC6LSd-ARTDqF-oMXpmo-b5hQEH-bmYWtc-bwDFm9-bkjtjs-ocEPNj-dmNuR2-xYA8n4-BpBidt-ALFRtW-Dnr1h-DnpTd-z7fLs-dXYgBz-DnqVy-DnqGk-nHdSWc-ypmuo-DnqUN-DnpD9-Dnqug-Dnqeu-DnqNZ-znU8b-pgrP5X-DnpBj-Dnpod-DnqCs-DnqPQ-Dnqwx-Btwf4D-BNwxMy-ie6Ws9-bqyUMi-newJUv-Dnqpj-nakbGD-BBKvup-AJaKgH-rrnUS1-DnqMU-yLVyi-aiKwZo-qEZHUq-ocyZuA-s39aPJ-Dnr5m',
+        link: 'https://www.flickr.com/photos/113058966@N08/15519708686/in/photolist-pDqyGf-brASqW-posJcA-pp2xLk-pEZ8A7-pCPqrC-posKmE-oDB3xk-7LyUPu-7Lv7Sk-pp2xGT-pFwbgt-by9F53-oJHsGR-pFhiBV-oBCCXy-okmnnu-oDB4XK-oBzp6Z-oDB3YR-oDB3ee-oBCAk9-oBCA9s-okmGv7-CGQxuR-Co48Uw-oJEw5Q-aqw2h7-aqvXoS-pFhjat-CQ2RD6-BSFmBX-CMKY1E-CQ4uhp-BSwwbL-CEuigU-CMJ9j9-BSygW9-CnWLmJ-CQ4UcD-BSFtha-CnWHuw-BSybwS-CML4A7-BSFpN6-BSFnUr-CEvWVE-BSFjmp-Cgyx9k-CEvPuh',
         path: 'url(../images/photos/hehuanshan.jpg)',
     }, {
         name: '台北101',
@@ -114,8 +120,8 @@ app.factory('imageService', ['$rootScope', function($rootScope) {
         link: 'https://www.flickr.com/photos/colortec/9816656263/',
         path: 'url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/cwan.jpg)',
     }, {
-        name: '和平島',
-        link: 'https://www.flickr.com/photos/lonmain/4679589830/',
+        name: '和平島公園',
+        link: 'https://www.flickr.com/photos/sfmine79/6441488019/in/photolist-aPdiYg-aPdnBP-aPdgCP-aPdmAR-aPdm4X-aPdiQv-aPdnLn-aPdngF-aPdmu2-aPdgKH-aPdkWx-aPdkPg-aPdko6-aPdnoF-aPdmKP-aPdmcF-aPdkFa-aPdih2-aPdhwr-aPdkwv-aPdk2Z-aPdhmX-aPdgSK-aPdmT2-aPdkf6-aPdhdT-aPdgZk-aPdnuz-aPdn8T-aPdjVe-aPdjtM-aPdhJX-aPdh7k-aPdjLB-aPdj88-aPdhSn-aPdhCt-aPdnX6-aPdmjX-aPdk9H-aPdiqP-aPdi8x-aPdo4i-aPdiJp-aPdiAM-aPdjor-aPdnSt-aPdjBt-aPdjfV-aPdoaz',
         path: 'url(https://raw.githubusercontent.com/kdchang/TaiwanNewTab/master/photos/peace.jpg)',
     }, {
         name: '高雄旗津渡輪',
